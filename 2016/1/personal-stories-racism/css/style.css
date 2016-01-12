@@ -229,6 +229,9 @@ footer {
 	background: #1b502a;
 }
 /* Componenet size */
+.title-row .buffer {
+	padding-bottom: 25px;
+}
 .hr hr {
 	margin-bottom: 90px;
 }
