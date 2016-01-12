@@ -7,7 +7,15 @@
 /*
 	GREEN:      #216334;
 	DARK GREEN: #1b502a;
+	LINK COLOR: #d6483d;
 */
+a{
+	color: #d6483d;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 
 /* Font families */
 .lora {
@@ -39,12 +47,21 @@ h6 {
 	font-size: 1.5em;
 }
 /* Text alignment */
+p.story-copy {
+	font-size: 18px;
+}
 .story p {
 	margin-top: 15px;
 	line-height: 1.3em;
 }
+.title h1 {
+	margin-bottom: 10px;
+}
 .title .byline {
 	margin-bottom: 15px;
+}
+.title p {
+	font-size: 18px;
 }
 .name {
 	line-height: 2em;
