@@ -1,0 +1,7 @@
+.player-one {
+	background-image: url(https://placebear.com/2000/1200);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
