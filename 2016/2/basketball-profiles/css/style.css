@@ -1,7 +1,129 @@
-.player-one {
-	background-image: url(https://placebear.com/2000/1200);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+.slide {
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Playfair Display', 'serif';
+}
+
+p {
+	margin: 0;
+}
+
+.intro {
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 36px;
+}
+.intro h4 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 20px;
+}
+
+.intro p {
+	margin-top: 0;
+	font-family: 'Roboto';
+	font-size: 16px;
+	text-align: left;
+}
+
+.infobox {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+	margin-top: 30vh;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Roboto', 'sans-serif';
+}
+
+.prev {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 35vh;
+	margin-bottom: 20px;
+}
+
+.prev a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+/*background url management yay*/
+.p1-one {
+	background-image: url(https://placebear.com/2000/1200);
+}
+
+.p1-two {
+	background-image: url(https://placebear.com/1600/800);
+}
+
+.p1-three {
+	background-image: url(https://placebear.com/1000/600);
+}
+
+.p1-four {
+	background-image: url(https://placebear.com/1400/650);
+}
+
+.p2-one {
+	background-image: url(https://placekitten.com/2000/1200);
+}
+
+.p2-two {
+	background-image: url(https://placekitten.com/1600/800);
+}
+
+.p2-three {
+	background-image: url(https://placekitten.com/1000/600);
+}
+
+.p2-four {
+	background-image: url(https://placekitten.com/1400/650);
+}
+
+.p3-one {
+	background-image: url(https://placebear.com/2000/1200);
+}
+
+.p3-two {
+	background-image: url(https://placebear.com/1600/800);
+}
+
+.p3-three {
+	background-image: url(https://placebear.com/1000/600);
+}
+
+.p3-four {
+	background-image: url(https://placebear.com/1400/650);
+}
+
+.p4-one {
+	background-image: url(https://placekitten.com/2000/1200);
+}
+
+.p4-two {
+	background-image: url(https://placekitten.com/1600/800);
+}
+
+.p4-three {
+	background-image: url(https://placekitten.com/1000/600);
+}
+
+.p4-four {
+	background-image: url(https://placekitten.com/1400/650);
 }
