@@ -32,3 +32,25 @@ ul.nav li.dropdown a:hover {
 .navbar-collapse.collapse.in ul.nav li.dropdown a {
 	padding: 10px;
 }
+
+.navbar .featured-nav {
+	background-color: #1b502a;
+	font-size: 18px;
+}
+.navbar .featured-nav ul {
+	margin: 5px 0;
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+}
+.navbar .featured-nav ul li {
+	float: left;
+	padding-right: 20px;
+}
+.navbar .featured-nav a {
+	color: #FFF;
+	
+}
+.navbar .featured-nav li:last-child {
+	padding-right: 0px;
+}

@@ -65,65 +65,65 @@ p {
 
 /*background url management yay*/
 .p1-one {
-	background-image: url(https://placebear.com/2000/1200);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg);
 }
 
 .p1-two {
-	background-image: url(https://placebear.com/1600/800);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg);
 }
 
 .p1-three {
-	background-image: url(https://placebear.com/1000/600);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79421_rs30205_dmm_fbc__fbcohiostate_11_120713o.jpg);
 }
 
-.p1-four {
+/*.p1-four {
 	background-image: url(https://placebear.com/1400/650);
-}
+}*/
 
 .p2-one {
-	background-image: url(https://placekitten.com/2000/1200);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);
 }
 
 .p2-two {
-	background-image: url(https://placekitten.com/1600/800);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);
 }
 
 .p2-three {
-	background-image: url(https://placekitten.com/1000/600);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg);
 }
 
-.p2-four {
+/*.p2-four {
 	background-image: url(https://placekitten.com/1400/650);
-}
+}*/
 
 .p3-one {
-	background-image: url(https://placebear.com/2000/1200);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);
 }
 
 .p3-two {
-	background-image: url(https://placebear.com/1600/800);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);
 }
 
 .p3-three {
-	background-image: url(https://placebear.com/1000/600);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg);
 }
 
-.p3-four {
+/*.p3-four {
 	background-image: url(https://placebear.com/1400/650);
-}
+}*/
 
 .p4-one {
-	background-image: url(https://placekitten.com/2000/1200);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);
 }
 
 .p4-two {
-	background-image: url(https://placekitten.com/1600/800);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);
 }
 
 .p4-three {
-	background-image: url(https://placekitten.com/1000/600);
+	background-image: url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);
 }
 
-.p4-four {
+/*.p4-four {
 	background-image: url(https://placekitten.com/1400/650);
-}
+}*/
