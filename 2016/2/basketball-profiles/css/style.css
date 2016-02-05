@@ -6,12 +6,15 @@
 }
 
 .slide {
-	border-bottom: 5px solid #000; /* Might delete */
+	
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 90vh;
+}
+.slide:not(.intro){
+	border-bottom: 5px solid #000; /* Might delete */
 }
 
 h1 {
