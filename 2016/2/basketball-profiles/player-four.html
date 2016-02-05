@@ -139,10 +139,10 @@
 
 <script type="text/javascript">
     $(function(){
-      $('.video').css({ width: $(window).width() + 'px', height: $(window).height() + 'px' });
+      $('.video').css({ width: $(window).width() + 'px', height: ($(window).height() - 101) + 'px' });
 
       $(window).resize(function(){
-        $('.video').css({ width: $(window).width() + 'px', height: $(window).height() + 'px' });
+        $('.video').css({ width: $(window).width() + 'px', height: ($(window).height() - 101) + 'px' });
       });
     });
 </script>
