@@ -72,19 +72,23 @@ p {
 }
 
 /*background url management yay*/
-.p1-one {
+.p1-one:not(.headshot) {
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* FF3.6-15 */
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* Chrome10-25,Safari5.1-6 */
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+.p1-one.headshot {
+	background-image: url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg);
+	background-size: contain;
+}
 
-.p1-two {
+.p1-two:not(.headshot) {
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* FF3.6-15 */
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* Chrome10-25,Safari5.1-6 */
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.p1-three {
+.p1-three:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79421_rs30205_dmm_fbc__fbcohiostate_11_120713o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -97,7 +101,7 @@ p {
 	background-image: url(https://placebear.com/1400/650);
 }*/
 
-.p2-one {
+.p2-one:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -106,8 +110,12 @@ p {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);*/
 }
+.p2-one.headshot {
+	background-image: url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);
+	background-size: contain;
+}
 
-.p2-two {
+.p2-two:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -117,7 +125,7 @@ p {
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);*/
 }
 
-.p2-three {
+.p2-three:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -131,7 +139,7 @@ p {
 	background-image: url(https://placekitten.com/1400/650);
 }*/
 
-.p3-one {
+.p3-one:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -141,7 +149,12 @@ p {
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);*/
 }
 
-.p3-two {
+.p3-one.headshot {
+	background-image:url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);
+	background-size: contain;
+}
+
+.p3-two:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -151,7 +164,7 @@ p {
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);*/
 }
 
-.p3-three {
+.p3-three:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -165,7 +178,7 @@ p {
 	background-image: url(https://placebear.com/1400/650);
 }*/
 
-.p4-one {
+.p4-one:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -175,7 +188,12 @@ p {
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);*/
 }
 
-.p4-two {
+.p4-one.headshot {
+	background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);
+	background-size: contain;
+}
+
+.p4-two:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
@@ -185,7 +203,7 @@ p {
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);*/
 }
 
-.p4-three {
+.p4-three:not(.headshot) {
 	/* FF3.6-15 */
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
