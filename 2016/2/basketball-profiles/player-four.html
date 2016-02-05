@@ -75,6 +75,16 @@
                         </ul>
                     </div>
                 </div>
+                <div class="featured-nav hidden-sm hidden-xs">
+                    <div class="container">
+                        <ul>
+                            <li><a href="player-one.html">Denzel Valentine</a></li>
+                            <li><a href="player-two.html">Matt Costello</a></li>
+                            <li><a href="player-three.html">Bryne Forbes</a></li>
+                            <li><a href="player-four.html">Colby Wollenman</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 		<div class="slide p4-one">
@@ -129,10 +139,10 @@
 
 <script type="text/javascript">
     $(function(){
-      $('.video').css({ width: $(window).width() + 'px', height: $(window).height() + 'px' });
+      $('.video').css({ width: $(window).width() + 'px', height: ($(window).height() - 101) + 'px' });
 
       $(window).resize(function(){
-        $('.video').css({ width: $(window).width() + 'px', height: $(window).height() + 'px' });
+        $('.video').css({ width: $(window).width() + 'px', height: ($(window).height() - 101) + 'px' });
       });
     });
 </script>
