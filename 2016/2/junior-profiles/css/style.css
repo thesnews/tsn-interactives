@@ -67,6 +67,10 @@ p {
 	font-family: 'Roboto', 'sans-serif';
 }
 
+.infobox a {
+	color: #d6483d;
+}
+
 .prev {
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -82,82 +86,91 @@ p {
 	height: 100%;
 }
 
+.video > div:first-of-type {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+object.OoyalaVideoPlayer {
+	width: 100% !important;
+	height: 100% !important;
+}
+
 /*background url management yay*/
 .p1-headshot {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79798_gavinschillingo.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79798_gavinschillingo.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79798_gavinschillingo.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .p2-headshot {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79810_alvinelliso.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79810_alvinelliso.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79810_alvinelliso.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .p3-headshot {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79806_eronharriso.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79806_eronharriso.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79806_eronharriso.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .p4-headshot {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/400/1000); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .p1-one {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79418_ssd_bkc_marylandeasternshorebball_01_120915o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79796_gavinschilling1o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79796_gavinschilling1o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79796_gavinschilling1o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .p1-two {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79419_cg_bkc_iowabasketball_07_011416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79797_gavinschilling2o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79797_gavinschilling2o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79797_gavinschilling2o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .p1-three {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79421_rs30205_dmm_fbc__fbcohiostate_11_120713o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79799_gavinschilling3o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79421_rs30205_dmm_fbc__fbcohiostate_11_120713o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79799_gavinschilling3o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79421_rs30205_dmm_fbc__fbcohiostate_11_120713o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79799_gavinschilling3o.jpg); 
 }
 
-/*.p1-four {
-	background-image: url(https://placebear.com/1400/650);
-}*/
+.p1-four {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79800_gavinschilling4o.jpg);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79800_gavinschilling4o.jpg);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79800_gavinschilling4o.jpg); 
+}
 
 .p2-one {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79811_alvinellis1o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79811_alvinellis1o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79811_alvinellis1o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);*/
 }
 
 .p2-two {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79812_alvinellis2o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79812_alvinellis2o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79812_alvinellis2o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);*/
 }
 
-.p2-three {
-	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg);
-	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg); 
-	/*background-image: url(https://s3.amazonaws.com/media.tsn/79420_rs39082_eah_bkc__elite8_48_032915_2o.jpg);*/
-}
+/*.p2-three {
+
+}*/
 
 /*.p2-four {
 	background-image: url(https://placekitten.com/1400/650);
@@ -165,31 +178,31 @@ p {
 
 .p3-one {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79807_eronharris1o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79807_eronharris1o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79807_eronharris1o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);*/
 }
 
 .p3-two {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79808_eronharris2o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79808_eronharris2o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79808_eronharris2o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);*/
 }
 
 .p3-three {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79809_eronharris3o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79809_eronharris3o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79809_eronharris3o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79428_ssd_bkc_mensbasketballmediaday_09_102715o.jpg);*/
 }
 
@@ -199,35 +212,41 @@ p {
 
 .p4-one {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);*/
 }
 
 
 .p4-two {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79802_mattvandyk2o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79802_mattvandyk2o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79802_mattvandyk2o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);*/
 }
 
 .p4-three {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79803_mattvandyk3o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79803_mattvandyk3o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79803_mattvandyk3o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);*/
 }
 
-/*.p4-four {
-	background-image: url(https://placekitten.com/1400/650);
-}*/
+.p4-four {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79430_rs29552_dmm_bkc_bkcindianapa_06_110413o.jpg);*/
+}
