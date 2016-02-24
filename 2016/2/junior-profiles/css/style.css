@@ -71,6 +71,14 @@ p {
 	color: #c4d9d9;
 }
 
+.infobox.van-dyk-1 {
+	margin-top: 5vh;
+}
+
+.infobox.van-dyk-2 {
+	margin-top: 20vh;
+}
+
 .prev {
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -113,9 +121,9 @@ object.OoyalaVideoPlayer {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79806_eronharriso.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .p4-headshot {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79801_mattvandyko.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79818_vandyko.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79818_vandyko.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79818_vandyko.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .p1-one {
@@ -215,11 +223,11 @@ object.OoyalaVideoPlayer {
 
 .p4-one {
 	/* FF3.6-15 */
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg);
 	/* Chrome10-25,Safari5.1-6 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79805_mattvandyk1o.jpg); 
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/79804_mattvandyk4o.jpg); 
 	/*background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);*/
 }
 
