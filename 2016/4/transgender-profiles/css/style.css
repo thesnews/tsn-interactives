@@ -19,10 +19,37 @@
 	color: white;
 }
 
+.visible-xs {
+	display: none;
+}
+
 h1 {
 	font-family: 'Playfair Display', 'serif';
 	font-size: 4em;
 	margin-bottom: 0;
+}
+
+.dropcap:first-child:first-letter {
+	font-size: 80px;
+	float: left;
+	padding: 25px 20px 10px 0;
+}
+
+.pullquote {
+	font-family: 'Playfair Display', 'serif';
+	font-size: 28px;
+	font-weight: 700;
+	width: 30%;
+}
+
+.pullquote.right {
+	float: right;
+	padding: 10px 0 10px 10px;
+}
+
+.pullquote.left {
+	float: left;
+	padding: 10px 10px 10px 0;
 }
 
 @media (max-width:768px){
@@ -30,11 +57,18 @@ h1 {
 		height: 60vh;
 	}
 	.info {
+		margin-top: 0;
 		text-align: center;
 		color: #333;
 	}
 	.lg-img {
 		height: 40vh;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	.visible-xs {
+		display: block;
 	}
 }
 
