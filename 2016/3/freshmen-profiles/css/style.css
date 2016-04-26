@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+.slide.p1-one, .slide.p2-one, .slide.p3-one, .slide.p4-one{
+	margin-top: 101px;
+}
+
+.slide {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+.slide:not(.intro){
+	border-bottom: 5px solid #000; /* Might delete */
+}
+
+h1 {
+	margin: 0;
+	font-family: 'Playfair Display', 'serif';
+}
+
+p {
+	margin: 0;
+}
+
+.intro {
+	text-align: center;
+}
+
+.intro h1 {
+	font-size: 36px;
+}
+
+.intro h4 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	margin: 5px 0;
+	font-size: 20px;
+}
+
+.intro h3 {
+	font-family: 'Roboto';
+	font-weight: bold;
+	margin: 0;
+	font-size: 24px;
+}
+
+.intro h3 a {
+	color: #333;
+}
+
+.intro p {
+	margin-top: 0;
+	font-family: 'Roboto';
+	font-size: 16px;
+}
+
+.infobox {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px;
+	margin-top: 30vh;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Roboto', 'sans-serif';
+}
+
+.infobox a {
+	color: #c4d9d9;
+}
+
+.infobox.van-dyk-1 {
+	margin-top: 5vh;
+}
+
+.infobox.van-dyk-2 {
+	margin-top: 20vh;
+}
+
+.prev {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60vh;
+
+}
+
+.prev a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.twitter-video > div:first-of-type {
+	height: 100vh !important;
+}
+
+.twitter-video {
+	max-width: 100% !important;
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+/*background url management yay*/
+.p1-headshot {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.p2-headshot {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.p3-headshot {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.p4-headshot {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.p1-one {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80449_78991_eie_bkc_basketballvsillinois_01071606oo.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.p1-two {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: top;
+}
+
+.p1-three {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); 
+	background-position: 25% top;
+}
+
+.p2-one {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80451_78459_ssd_bkc_msuvseasternmich_09_112315oo.jpg); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79422_ssd_bkc_msuvseasternmich_11_112315o.jpg);*/
+}
+
+.p2-two {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80450_79235_cg_bkc_nebraskabasketball_01201615oo.jpg);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80450_79235_cg_bkc_nebraskabasketball_01201615oo.jpg);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80450_79235_cg_bkc_nebraskabasketball_01201615oo.jpg); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79423_ssd_bkc_marylandbball_18_012316o.jpg);*/
+	background-position: 70% top;
+}
+
+/*.p2-three {
+
+}*/
+
+/*.p2-four {
+	background-image: url(https://placekitten.com/1400/650);
+}*/
+
+.p3-one {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79425_rs37177_eah_bkc_bkcvsnorthwestern_03_011115o.jpg);*/
+}
+
+.p3-two {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79424_rs39091_eah_bkc__elite8_57_032915o.jpg);*/
+}
+
+/*.p3-three {
+	background-image: url(https://placebear.com/1400/650);
+}*/
+
+.p4-one {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80448_connergeorgeo.jpg); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79427_ssd_bkc_mensbasketballmediaday_17_102715o.jpg);*/
+}
+
+
+.p4-two {
+	/* FF3.6-15 */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* Chrome10-25,Safari5.1-6 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placebear.com/1000/700); 
+	/*background-image: url(https://s3.amazonaws.com/media.tsn/79429_rs35893_eah_bkc_midnightmadess49_102414o.jpg);*/
+}
