@@ -346,7 +346,7 @@ Modules - reusable parts of our design
   height: 70vh;
   background-image: url('https://s3.amazonaws.com/media.tsn/81301_imageo.png');
   background-size: cover;
-  background-position: center;
+  background-position: center 70%;
 }
 
 .cd-container {
