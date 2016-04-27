@@ -342,6 +342,13 @@ h1, h2 {
 Modules - reusable parts of our design
 
 -------------------------------- */
+.card {
+  height: 70vh;
+  background-image: url('https://s3.amazonaws.com/media.tsn/81301_imageo.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
@@ -607,7 +614,8 @@ i.fa-gavel{
 
 .cd-timeline-content.intro {
   display: block;
-  margin: 30px auto;
+  margin: 0 auto;
+  top: 10vh;
 }
 
 .cd-timeline-content.intro:before {
@@ -675,7 +683,7 @@ i.fa-gavel{
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
-@media only screen and (min-width: 768px) {
+
   .cd-timeline-content h2 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -688,7 +696,13 @@ i.fa-gavel{
     font-size: 14px;
     font-size: 0.875rem;
   }
+
+@media only screen and (max-width: 1169px) {
+  .cd-timeline-content.intro {
+    width: 70%;
+  } 
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
