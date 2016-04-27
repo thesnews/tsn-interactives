@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic);
+
+.cover {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.lg-img {
+	height: 60vh;
+}
+
+.md-img {
+	height: 30vh;
+}
+
+.intro .info {
+	margin-top: 20vh;
+}
+
+.info {
+	margin-top: 50vh;
+	color: white;
+}
+
+.info a {
+	color: white;
+}
+
+.p2-one .info {
+	margin-top: 60vh;
+}
+
+.visible-xs {
+	display: none;
+}
+
+h1 {
+	font-family: 'Playfair Display', 'serif';
+	font-size: 5em;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: 'Playfair Display', 'serif';
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-family: 'Roboto', 'serif';
+}
+
+.sidebar {
+	background-color: #eee;
+	padding: 15px;
+}
+
+.sidebar p {
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 14px;
+}
+
+.dropcap:first-child:first-letter {
+	font-size: 60px;
+	float: left;
+	padding: 15px 5px 5px 0;
+}
+
+.pullquote {
+	font-family: 'Lora', 'serif';
+	font-size: 24px;
+	font-weight: 700;
+	width: 30%;
+}
+
+.pullquote.right {
+	float: right;
+	padding: 10px 0 10px 10px;
+}
+
+.pullquote.left {
+	float: left;
+	padding: 10px 10px 10px 0;
+}
+
+@media (max-width:768px){
+	.cover {
+		height: 60vh;
+	}
+	.info {
+		margin-top: 0;
+		text-align: center;
+		color: #333;
+		z-index: 999;
+	}
+	.info a {
+		color: #333;
+	}
+	.lg-img {
+		height: 40vh;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	.visible-xs {
+		display: block;
+	}
+	.sidebar {
+		margin: 15px;
+	}
+}
+
+p {
+	font-family: 'Lora', 'serif';
+	font-size: 18px;
+	line-height: 28px;
+	margin: 9px auto 9px auto;
+}
+
+figcaption {
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 14px;
+	color: #808080;
+}
+
+/*background url management yay*/
+/*dark background*/
+.intro {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* laptop */
+.p1-one {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* holding bottle */
+.p1-two {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/*bottle alone*/
+.p1-three {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/*working out*/
+.p1-four {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/*watson in chair*/
+.p1-five {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* morgan at post office*/
+.p2-one {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* morgan books */
+.p2-two {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* morgan makeup */
+.p2-three {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* morgan cat */
+.p2-four {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: center top;
+}
+
+
+/* baby silhouette */
+.p3-one {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+
+/* box */
+.p3-two {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* holding bottle */
+.p3-three {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+.p3-four {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* holding baby */
+.p3-five {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
+
+/* portrait */
+.p3-six {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-position: 20%;
+}
