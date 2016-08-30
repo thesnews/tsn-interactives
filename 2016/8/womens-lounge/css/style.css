@@ -27,6 +27,9 @@ a:hover {
 .playfair {
 	font-family: 'Playfair Display', serif;
 }
+.georgia {
+	font-family: 'Georgia', serif;
+}
 /* Font sizes */
 h1 {
 	font-size: 4em;
@@ -48,7 +51,7 @@ h6 {
 }
 /* Text alignment */
 p.story-copy {
-	font-size: 18px;
+	font-size: 20px;
 }
 .story p {
 	margin-top: 15px;
