@@ -1,0 +1,287 @@
+/* Load fonts */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);*/
+
+/* Color Reference */
+/*
+	GREEN:      #216334;
+	DARK GREEN: #1b502a;
+	LINK COLOR: #d6483d;
+*/
+a{
+	color: #d6483d;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* Font families */
+.lora {
+	font-family: 'Lora', serif;
+}
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+.playfair {
+	font-family: 'Playfair Display', serif;
+}
+.georgia {
+	font-family: 'Georgia', serif;
+}
+/* Font sizes */
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 3.5em;
+}
+h3 {
+	font-size: 3em;
+}
+h4 {
+	font-size: 2.5em;
+}
+h5 {
+	font-size: 2em;
+}
+h6 {
+	font-size: 1.5em;
+}
+/* Text alignment */
+p.story-copy {
+	font-size: 20px;
+}
+.story p {
+	margin-top: 15px;
+	line-height: 1.3em;
+}
+.title h1 {
+	margin-bottom: 10px;
+}
+.title .byline {
+	margin-bottom: 15px;
+}
+.title p {
+	font-size: 18px;
+}
+.name {
+	line-height: 2em;
+}
+.text-center {
+	text-align: center;
+}
+/* Navbar */
+.navbar-row {
+	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	background: #216334;
+}
+.navbar-row #navbar {
+	/*padding: 0 2em;*/
+}
+#navbar ul {
+	font-size: 18px;
+	list-style: none;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li:not(.left) {
+	float: right;
+	clear: left;
+	padding: 30px 5px;
+}
+#navbar a {
+	color: #FFF;
+	text-decoration: none;
+}
+#navbar img {
+	margin-top: 1em;
+	/*text-decoration: underline;*/
+}
+#navbar li:not(.left):hover {
+	background: #1b502a;
+}
+.anchor-nav {
+	position: fixed;
+	top: 78px;
+	font-family: 'Roboto', sans-serif;
+	background: #1b502a;
+}
+.anchor-nav .anchor-navbar {
+	padding: .5em 0em;
+	list-style: none;
+}
+.anchor-nav .anchor-navbar li {
+	display: inline;
+	margin-right: 10px;
+}
+.anchor-nav .anchor-navbar a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+.anchor-nav .anchor-navbar a:hover {
+	text-decoration: underline;
+}
+
+#navbar ul li.dropdown {
+	display: none;
+	padding: 0;
+}
+.navbar-row .dropdown-menu {
+	display: none;
+	margin: 0;
+}
+.navbar-row .dropdown-menu.open {
+	display: block;
+}
+.navbar-row .dropdown-menu a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 18px;
+}
+.navbar-row .dropdown-menu li {
+	padding: 5px 0;
+}
+.navbar-row .dropdown-menu li:hover {
+	background-color: #1B502A;
+}
+#navbar ul li.dropdown.open .dropdown-menu {
+	display: block;
+}
+
+
+.toggle .bar {
+  margin-top: -0.2rem;
+}
+.toggle .bar,
+.toggle .bar:before,
+.toggle .bar:after {
+  -webkit-transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+  position: absolute;
+  background: #ffffff;
+  margin: auto;
+  width: 70%;
+  height: 5px;
+  content: '';
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.toggle .bar:before {
+  width: 100%;
+  top: -1.2rem;
+}
+.toggle .bar:after {
+  width: 100%;
+  top: 1.2rem;
+}
+.toggle .bar:before,
+.toggle .bar:after {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.toggle.active .bar {
+  background: 0;
+}
+.toggle.active .bar:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.toggle.active .bar:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.toggle.active .bar:before,
+.toggle.active .bar:after {
+  top: 0;
+}
+.toggle.active .bar,
+.toggle.active:before,
+.toggle.active:after {
+  -webkit-transition: 0.2s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s;
+  transition: 0.2s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s;
+}
+
+.toggle {
+  float: left;
+  height: 66px;
+  width: 55px;
+  border: 0;
+  background: #1B502A;
+}
+.toggle:focus {
+  outline: 0;
+}
+.toggle {
+  -webkit-transition: 0.1s transform linear;
+  transition: 0.1s transform linear;
+  position: relative;
+  z-index: 1;
+  outline: 0;
+  padding: 0;
+  border: 0;
+}
+/* Footer */
+footer {
+	color: #FFF;
+	background: #1b502a;
+}
+/* Componenet size */
+.title-row .buffer {
+	padding-bottom: 25px;
+}
+.hr hr {
+	margin-bottom: 90px;
+}
+.title {
+	margin-top: 6em;
+	/* MAYBE give it this height. Wait for actual intro paragraphs */
+	/*min-height: 50vh !important;*/
+}
+.video-container iframe {
+	display: block;
+	width: 100%;
+	height: 60vh;
+}
+/* Response responsiveness media queries */
+/* EXTRA SMALL devices (0px up to tablets, 768px) */
+@media (max-width: 600px) {
+	
+	.navbar-row {
+		padding: 0 1em;
+	}
+	#navbar ul li:not(.left) {
+		display: none;
+	}
+	.anchor-nav {
+		display: none;
+	}
+	#navbar ul li.dropdown, #navbar ul li.dropdown ul li {
+		display: block;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+	.navbar-row, .anchor-nav {
+		padding: 0 1em;
+	}
+}
+
+@media (max-width: 40em) {
+	.visible-sm {
+		display: none;
+	}
+}
+/* SMALL devices (tablets, 768px and up to desktops, 992px) */
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+/* MEDIUM devices (desktops, 992px and up to large desktops, 1200px) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+/* MEDIUM and LARGE devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {}
+/* LARGE devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {}
