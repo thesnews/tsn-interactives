@@ -113,6 +113,10 @@ h3 {
 	.sidebar {
 		margin: 15px;
 	}
+
+	.margin-bottom {
+		margin-bottom: 12px;
+	}
 }
 
 p {
@@ -129,129 +133,55 @@ figcaption {
 }
 
 /*background url management yay*/
-/*dark background*/
+/*Crying first picture*/
 .intro {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80793_cg_fea_transgenderpeople01_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/uploads.hipchat.com/44891/311108/cOOvyWqFRtqIMiN/cmg_fullscreen_liz_owczarzak_01241706.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/uploads.hipchat.com/44891/311108/cOOvyWqFRtqIMiN/cmg_fullscreen_liz_owczarzak_01241706.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/uploads.hipchat.com/44891/311108/cOOvyWqFRtqIMiN/cmg_fullscreen_liz_owczarzak_01241706.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
-/* laptop */
+/* Smashed glass */
 .p1-one {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81132_cg_fea_transgenderpeople18_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85487_cmg_fea_former_homeless_lady_liz_owczarzak_01241701p.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85487_cmg_fea_former_homeless_lady_liz_owczarzak_01241701p.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85487_cmg_fea_former_homeless_lady_liz_owczarzak_01241701p.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
-/* holding bottle */
+/* holding LCC diploma */
 .p1-two {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80792_cg_fea_transgenderpeople03_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85497_cmg_fea_former_homeless_lady_liz_owczarzak_01241714p.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85497_cmg_fea_former_homeless_lady_liz_owczarzak_01241714p.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85497_cmg_fea_former_homeless_lady_liz_owczarzak_01241714p.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
-/*bottle alone*/
+/*quote book*/
 .p1-three {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81133_cg_fea_transgenderpeople22_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85500_cmg_fea_former_homeless_lady_liz_owczarzak_01241715p.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85500_cmg_fea_former_homeless_lady_liz_owczarzak_01241715p.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85500_cmg_fea_former_homeless_lady_liz_owczarzak_01241715p.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
-/*working out*/
+/*head on car*/
 .p1-four {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80794_cg_fea_transgenderpeople13_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85495_cmg_fea_former_homeless_lady_liz_owczarzak_01241712p.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85495_cmg_fea_former_homeless_lady_liz_owczarzak_01241712p.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85495_cmg_fea_former_homeless_lady_liz_owczarzak_01241712p.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
 /*watson in chair*/
 .p1-five {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/80797_cg_fea_transgenderpeople20_040416o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
-
-/* morgan at post office*/
-.p2-one {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81136_dsc_8655o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
-
-/* morgan books */
-.p2-two {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81137_mdh_0175o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
-
-/* morgan makeup */
-.p2-three {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81138_mdh_0204o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
-
-/* morgan cat */
-.p2-four {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81139_mdh_0221o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: center top;
-}
-
-
-/* baby silhouette */
-.p3-one {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81144_mdh_0355o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85503_cmg_fea_former_homeless_lady_liz_owczarzak_01241719p.jpg); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85503_cmg_fea_former_homeless_lady_liz_owczarzak_01241719p.jpg); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/85503_cmg_fea_former_homeless_lady_liz_owczarzak_01241719p.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-position: 20%;
 }
 
 
-/* box */
-.p3-two {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81142_mdh_0289o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-
-/* holding bottle */
-.p3-three {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81143_mdh_0291o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
 
 
-.p3-four {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://placekitten.com/1000/700); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
 
-/* holding baby */
-.p3-five {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81140_mdh_0351o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
-
-/* portrait */
-.p3-six {
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.9) 100%), url(https://s3.amazonaws.com/media.tsn/81141_mdh_0380o.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	background-position: 20%;
-}
