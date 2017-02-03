@@ -111,6 +111,7 @@ h3 {
 		text-align: center;
 		color: #333;
 		z-index: 999;
+		font-size: 24px; 
 	}
 	.info a {
 		color: #333;
@@ -130,6 +131,14 @@ h3 {
 
 	.margin-bottom {
 		margin-bottom: 12px;
+	}
+
+	h1.small {
+		font-size: 36px;
+	}
+
+	h2.small {
+		font-size: 24px;
 	}
 }
 
