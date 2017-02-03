@@ -71,6 +71,20 @@ h3 {
 	padding: 15px 5px 5px 0;
 }
 
+.blockquote {
+	font-family: 'Lora', 'serif';
+	font-size: 28px;
+	font-weight: 700;
+	width: 90%;
+}
+
+.blockquote-footer {
+	font-family: 'Lora', 'serif';
+	font-size: 14px;
+	font-weight: 700;
+	width: 30%;
+}
+
 .pullquote {
 	font-family: 'Lora', 'serif';
 	font-size: 24px;
