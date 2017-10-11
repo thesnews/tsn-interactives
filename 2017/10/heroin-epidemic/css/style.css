@@ -204,6 +204,14 @@ figcaption {
 	background-position: 20%;
 }
 
+.img-responsive {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.infogram-embed {
+	margin-top: 25px;
+}
 
 
 
