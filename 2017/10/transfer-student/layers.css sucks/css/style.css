@@ -1,0 +1,131 @@
+/* Load fonts */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+/* Color Reference */
+/*
+	GREEN:      #216334;
+	DARK GREEN: #1b502a;
+*/
+
+/* Font families */
+.lora {
+	font-family: 'Lora', serif;
+}
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+.playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+/* Font sizes */
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 3.5em;
+}
+h3 {
+	font-size: 3em;
+}
+h4 {
+	font-size: 2.5em;
+}
+h5 {
+	font-size: 2em;
+}
+h6 {
+	font-size: 1.5em;
+}
+
+/* Image Handling */
+.full-width {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.full-width.cover {
+  background-image: url(https://placebear.com/1000/700); 
+  background-image: url(https://placebear.com/1000/700);
+  background-image: url(https://placebear.com/1000/700); 
+}
+
+/* Text alignment */
+.headline {
+  margin-top: 60vh;
+  color: #fff;
+}
+/*.story p {
+	margin-top: 15px;
+	line-height: 1.3em;
+}
+.title .byline {
+	margin-bottom: 15px;
+}
+.name {
+	line-height: 2em;
+}
+.text-center {
+	text-align: center;
+}*/
+
+/* Footer */
+footer {
+	color: #FFF;
+	background: #1b502a;
+}
+/* Componenet size */
+.hr hr {
+	margin-bottom: 90px;
+}
+.title {
+	margin-top: 6em;
+	/*min-height: 50vh !important;*/
+}
+.video-container iframe {
+	display: block;
+	width: 100%;
+	height: 60vh;
+}
+/* Response responsiveness media queries */
+/* EXTRA SMALL devices (0px up to tablets, 768px) */
+@media (max-width: 600px) {
+	
+	.navbar-row {
+		padding: 0 1em;
+	}
+	#navbar ul li:not(.left) {
+		display: none;
+	}
+	.anchor-nav {
+		display: none;
+	}
+	#navbar ul li.dropdown, #navbar ul li.dropdown ul li {
+		display: block;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+	.navbar-row, .anchor-nav {
+		padding: 0 1em;
+	}
+}
+
+@media (max-width: 40em) {
+	.visible-sm {
+		display: none;
+	}
+}
+/* SMALL devices (tablets, 768px and up to desktops, 992px) */
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {}
+/* MEDIUM devices (desktops, 992px and up to large desktops, 1200px) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {}
+/* MEDIUM and LARGE devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {}
+/* LARGE devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {}
