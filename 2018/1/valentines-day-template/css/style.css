@@ -1,0 +1,10 @@
+.container {
+	margin: 1px 25px;
+}
+body {
+	background-color: #000000;
+}
+.couple-profile {
+	background-image: url('img/placeholders/placeholder.png');
+	height: 300px;
+}
