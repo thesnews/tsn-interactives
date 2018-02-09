@@ -7,13 +7,54 @@ img {
   max-width: 100%;
 }
 
-a, a:hover, a:active, a:visited {
+a, a:hover, a:active, a:visited, p, p:hover {
   text-decoration: none;
+  color: #000000;
 }
 
 @media(max-width: 970px) {
   .desktop {
     display: none;
+  }
+  .couple-profile-header {
+    max-width: 100%!important;
+    
+    margin-left: none;
+  }
+  .advertisement {
+    width: 40%;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ad-column {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ad-2 {
+    float: right;
+  }
+  .couple-profile-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 90%!important;
+  }
+
+  .couple-profile-container {
+    padding: 50px;
+  }
+}
+
+@media(max-width: 768px) {
+  .advertisement {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -23,14 +64,16 @@ a, a:hover, a:active, a:visited {
   }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1201px){
   .second-row-column {
-    width: 19%;
+    width: 18%!important;
   }
   .header-box {
     width: 58%;
   }
 }
+
+
 
 .disabled {
   pointer-events: none;
@@ -152,9 +195,16 @@ a, a:hover, a:active, a:visited {
   color: #ffffff;
 }
 
+.couple-profile-container {
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: #E75480; /* Dark Pink */
+}
+
 .couple-profile-nav {
   width:  100%;
   list-style-type: none;
+  margin-top: 100px;
 }
 
 .nav-link {
@@ -184,11 +234,6 @@ a, a:hover, a:active, a:visited {
 .advertisement {
   margin: 50px 5px;
 }
-
-
-
-
-
 
 
 
