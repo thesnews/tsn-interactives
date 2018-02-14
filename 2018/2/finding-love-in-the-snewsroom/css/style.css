@@ -2,6 +2,10 @@ body {
   background-color: #f4f2f0;
 }
 
+.navbar-fixed-top {
+  z-index: -1;
+}
+
 img {
   max-height: 100%;
   max-width: 100%;
@@ -11,6 +15,10 @@ img {
 a, a:hover, a:active, a:visited, p, p:hover {
   text-decoration: none;
   color: #000000;
+}
+
+.couple-profile-page-container {
+  background-color: inherit;
 }
 
 @media(max-width: 970px) {
@@ -179,8 +187,10 @@ a, a:hover, a:active, a:visited, p, p:hover {
 }
 
 .couple-head {
+  font-family: 'Playfair Display', 'serif';
   font-size: 22px;
-  color: #ffffff;
+  color: #c01702;
+  margin-left: 2em;
 }
 
 .couple-subhead {
@@ -230,7 +240,8 @@ a, a:hover, a:active, a:visited, p, p:hover {
 }
 
 .ad-column {
-  margin-top: 150px;
+      margin-top: 20px;
+
 }
 
 .advertisement {
