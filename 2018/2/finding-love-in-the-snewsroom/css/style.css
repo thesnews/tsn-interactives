@@ -2,6 +2,10 @@ body {
   background-color: #f4f2f0;
 }
 
+.navbar-fixed-top {
+  z-index: -1;
+}
+
 img {
   max-height: 100%;
   max-width: 100%;
@@ -11,6 +15,10 @@ img {
 a, a:hover, a:active, a:visited, p, p:hover {
   text-decoration: none;
   color: #000000;
+}
+
+.couple-profile-page-container {
+  background-color: inherit;
 }
 
 @media(max-width: 970px) {
@@ -124,7 +132,7 @@ a, a:hover, a:active, a:visited, p, p:hover {
   position: relative;
   height: 95%;
   width: 95%;
-  border: 5px solid #f500d8;
+  /*border: 5px solid #f500d8;*/
   margin-left: auto;
   margin-right: auto;
   top: 2.5%;
@@ -162,7 +170,7 @@ a, a:hover, a:active, a:visited, p, p:hover {
 }
 
 .couple-profile-header-container, .couple-profile-footer-container {
-  height: 300px;
+  height: 500px;
 }
 
 .couple-profile-header-container {
@@ -179,8 +187,10 @@ a, a:hover, a:active, a:visited, p, p:hover {
 }
 
 .couple-head {
+  font-family: 'Playfair Display', 'serif';
   font-size: 22px;
-  color: #ffffff;
+  color: #c01702;
+  margin-left: 2em;
 }
 
 .couple-subhead {
@@ -230,7 +240,8 @@ a, a:hover, a:active, a:visited, p, p:hover {
 }
 
 .ad-column {
-  margin-top: 150px;
+      margin-top: 20px;
+
 }
 
 .advertisement {
@@ -241,53 +252,57 @@ a, a:hover, a:active, a:visited, p, p:hover {
 
 /*Set Couple Images On Hover Here */
 .casey-mckenna:hover {
-  background-image: url('../img/couples/Casey-Mckenna/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/ee332803-3077-44a1-bc90-1564cc79308e.sized-1000x1000.jpg?')!important;
 }
 
 .fish:hover {
-  background-image: url('../img/couples/Fish/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/71af09f7-b363-4e6c-af58-abf8af3075e9.sized-1000x1000.jpg?')!important;
 }
 
 .flannigan:hover {
-  background-image: url('../img/couples/Flannigan/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/4b510439-26b0-4ea9-a1a7-859647abca8a.sized-1000x1000.jpg?')!important;
 }
 
 .houck:hover {
-  background-image: url('../img/couples/Houck/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/16545a42-76b0-454d-ad0f-2255cff95a82.sized-1000x1000.JPG?')!important;
 }
 
 .jahnke:hover {
-  background-image: url('../img/couples/Jahnke/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/195f0656-07c9-4aa7-bbd1-3b17245b72a3.sized-1000x1000.jpg?')!important;
 }
 
 .josh:hover {
-  background-image: url('../img/couples/josh/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/600e91ec-8e7b-4092-a1dc-389ea8700ac2.sized-1000x1000.jpg?')!important;
 }
 
 .kart:hover {
-  background-image: url('../img/couples/kart/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/dcf3bf33-68d0-4848-b781-172ffea73941.sized-1000x1000.jpg?')!important;
 }
 
 .natalie-grant:hover {
-  background-image: url('../img/couples/Natalie-Grant/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/ee5db583-5214-41d2-b79a-5a9e96df333a.sized-1000x1000.jpg?')!important;
 }
 
 .neva-sheldon:hover {
-  background-image: url('../img/couples/Neva-Sheldon/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/1427348a-a1f6-4a65-bbb0-c7f1d1e3d5f9.sized-1000x1000.jpg?')!important;
 }
 
 .nowicki:hover {
-  background-image: url('../img/couples/Nowicki/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/b1d7672e-3d0c-4c3a-aab5-40375ef3f899.sized-1000x1000.jpg?')!important;
 }
 
 .petra-craig:hover {
-  background-image: url('../img/couples/Petra-Craig/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/0d9be0d5-242f-4305-b3d5-49225413bd60.sized-1000x1000.jpg?')!important;
 }
 
 .sam-stephen:hover {
-  background-image: url('../img/couples/Sam-Stephen/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/5165a5d6-eb92-48d7-95c0-7eb409c73749.sized-1000x1000.jpg?')!important;
+}
+
+.souichi-maddie:hover {
+  background-image: url('https://snworksceo.imgix.net/tsn/057ed57e-0370-4d45-8fb8-21205e103adb.sized-1000x1000.JPG?')!important;
 }
 
 .vannini:hover {
-  background-image: url('../img/couples/Vannini/new.jpg')!important;
+  background-image: url('https://snworksceo.imgix.net/tsn/c7139ebb-fb2a-4fdb-98a2-75b78205bac7.sized-1000x1000.jpg?')!important;
 }
